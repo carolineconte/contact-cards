@@ -1,30 +1,27 @@
 body {
     display: flex;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: rgb(181, 227, 211);
     flex-direction: column;
     align-items: center;
-
+justify-content: center;
 }
 
 .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0px;
-    margin: auto;
-    gap: 2em;
-    width: 90%;
-    max-width: 960px;
+    gap: 16px;
+    max-width: 1000px;
 }
 
 .list-item {
     flex-basis: 280px;
-    min-width: 200px;
     text-align: center;
-    gap: 1em;
     border-radius: 5px;
     background: url(imagens/thumb01.jpg) white no-repeat;
 }
